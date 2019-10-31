@@ -11,9 +11,28 @@
                         <p class="subtitle">Software Engineer/Home Chef</p>
                     </article>
                 </div>
-                <div class="tile is-child box">
-                    <article class="content has-text-centered">
-                        <p> Here's where the magic will happen.</p>
+                <div class="tile is-child">
+                        <div class="tabs is-centered">
+                                <ul>
+                                <li onclick="openTab('Background')"><a>Background</a></li>
+                                <li onclick="openTab('Projects')"><a>Skills</a></li>
+                                <li onclick="openTab('Skills')"><a>Projects</a></li>
+                                <li onclick="openTab('Interests')"><a>Interests</a></li>
+                                </ul>
+                            </div>
+                    <article class="content has-text-centered box">
+                        <div id="Background" class="info-tab">
+                            <p>Test</p>
+                        </div>
+                        <div id="Projects" style="display: none;" class="info-tab">
+                            <p>Here's another test</p>
+                        </div>
+                        <div id="Skills" style="display: none;" class="info-tab">
+                            <p>Are you familiar with the terror dome?</p>
+                        </div>
+                        <div id="Interests" style="display: none;" class="info-tab">
+                            <p>WELCOME TO THE TERROR DOME!</p>
+                        </div>
                     </article>
                 </div>
             </div>
